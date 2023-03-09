@@ -123,6 +123,27 @@ position: relative;
     margin-top: 222px;
 }
 
-.header-subtitle {
-
+.header-suptitle {
+font-size: 18px;
+color: #fff;
+font-family: 'Open Sans', sans-serif;
 }
+
+.header-suptitle::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background: #fff;
+    top: 147px;
+    left: 90px;
+}
+
+.header-suptitle::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background: #fff;
+    top: 147px;
+    left: 90px;
