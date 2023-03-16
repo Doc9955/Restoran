@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  width: 1366px;
-  height: 6560px;
+  /* width: 1366px; */
+  /* height: 6560px; */
 }
 .container {
   margin: 0px 166px;
 }
 .header {
-  background-image: url(./bg.jpg);
+  background-image: url(bg.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,10 +21,10 @@ body {
   justify-content: space-around;
 }
 
-.nav {
+/* .nav {
   position: relative;
   left: 100px;
-}
+} */
 .nav-item {
   color: #fff;
   text-decoration: none;
@@ -32,33 +32,35 @@ body {
   font-size: 14px;
   margin-right: 25px;
   transition: 0.3s linear;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
-ul {
+/* .ul {
   display: flex;
-}
+} */
 .nav-item:hover {
-  color: rgb(224, 11, 11);
+  color: #d81d1d
 }
-.phone {
+/* .phone {
   display: flex;
   position: relative;
   left: 59px;
-}
+} */
+
+
 
 .phone-text {
   color: #fff;
 }
 
-.card {
+.cart {
   border-right: 1px solid #ffffff;
   padding-right: 10px;
   height: 50px;
   position: relative;
-  left: 80px;
+  /* left: 80px; */
 }
 
-.card-img {
+.cart-img {
   position: absolute;
   top: 18px;
   right: 18px;
@@ -76,11 +78,12 @@ ul {
 }
 
 .phone-text {
-  font-family: "Open Sans";
-  font-style: normal;
+  /* font-family: "Open Sans"; */
+  /* font-style: normal; */
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
+  /* line-height: 19px; */
+  color: #fff;
 }
 .phone-folder {
   display: flex;
@@ -93,17 +96,17 @@ ul {
   text-decoration: none;
   padding: 14px 18px;
   font-weight: 700;
-  transition: 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 
 .button:hover {
   background-color: #69380f;
 }
 
-.btn {
+/* .btn {
   margin-top: 24px;
   margin-left: 50px;
-}
+} */
 
 .header-down {
   position: relative;
@@ -142,14 +145,14 @@ ul {
   content: "";
   height: 2px;
   width: 61px;
-  background: #fff;
+  background-color: #fff;
   top: 131px;
   left: 327px;
 }
 
 .header-button {
   background-color: #ff7400;
-  padding: 14px 28px 14px 27px;
+  padding: 14px 28px ;
   color: #fff;
   font-size: 14px;
   font-weight: 700;
@@ -162,12 +165,12 @@ ul {
   background-color: #9e5604;
 }
 
-.cart-holder {
+.cards-holder {
   display: flex;
   justify-self: center;
 }
 
-.cart {
+.card {
   box-shadow: 10px 10px 40px 20px #0000001a;
   width: 349px;
   margin-right: 31px;
@@ -176,14 +179,15 @@ ul {
   padding: 10px 10px;
 }
 
-.cart-image {
+.card-image {
   display: flex;
   justify-content: center;
-  padding-top: 35px;
+  padding-top: 31px;
 }
 
-.cart-title span {
+.card-title span {
   color: #bc9060;
+  margin-left: 2px;
 }
 
 .cart-title {
@@ -254,28 +258,28 @@ ul {
 
 .history-holder {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .images-1 {
   position: absolute;
-  z-index: 300;
-  top: 43px;
-  left: -269px;
+  z-index: 0;
+  top: 54px;
+  left: 211px;
 }
 
 .images-2 {
   position: absolute;
-  z-index: 500;
-  top: 6px;
-  left: -421px;
+  z-index: 999;
+  top: -92px;
+  left: 383px;
 }
 
 .images-3 {
   position: absolute;
-  z-index: 600;
-  top: 210px;
-  left: -171px;
+  z-index: 999;
+  top: 246px;
+  left: 481px;
 }
 
 .black-block {
@@ -288,7 +292,7 @@ ul {
   font-family: "Tinos", serif;
   font-weight: 400px;
   font-size: 52px;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 20px;
 }
 
@@ -314,7 +318,7 @@ ul {
 
 .dishes-title {
   font-family: "Tinos", serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 54px;
   text-align: center;
   padding-top: 132px;
@@ -342,7 +346,7 @@ ul {
 
 .burger-text {
   font-family: "Tinos", serif;
-  font-size: 22px;
+  font-size: 26px;
   margin-left: 20px;
 }
 
@@ -375,10 +379,11 @@ ul {
   font-family: "Tinos", serif;
   font-size: 26px;
   padding-top: 16px;
+  padding-bottom: 17px;
 }
 
 .menu-subtext {
-  padding-top: 17px;
+  /* padding-top: 17px; */
   font-size: 16px;
 }
 
@@ -399,21 +404,21 @@ ul {
 .price-image {
   position: absolute;
   bottom: 0px;
-  right: 35px;
+  right: 32px;
 }
 
 .menu-image {
   position: relative;
 }
 
-.menu-img {
+/* .menu-img {
   border-radius: 110px;
-}
+} */
 
 .price-420 {
   position: absolute;
-  bottom: 31px;
-  right: 61px;
+  bottom: 32px;
+  right: 56px;
   color: #fff;
   font-size: 30px;
 }
@@ -459,7 +464,7 @@ ul {
 
 .galery-title {
   font-family: "Tinos", serif;
-  font-weight: 400px;
+  /* font-weight: 400px; */
   font-size: 54px;
   padding-top: 100px;
   text-align: center;
@@ -493,7 +498,7 @@ ul {
 
 .cook-title {
   font-family: "Tinos", serif;
-  font-weight: 400px;
+  /* font-weight: 400px; */
   font-size: 54px;
   text-align: center;
   margin-bottom: 100px;
@@ -515,38 +520,54 @@ ul {
   text-align: center;
 }
 
-.burger-menu {
+/* .burger-menu {
     display: none;
+} */
+
+
+/* .block {
+  display: block;
+} */
+
+.menu-img {
+  width: 90%;
 }
+
+.burger-menu {
+  display: none;
+}
+
 
 @media (max-width: 1500px) {
   .galery-content {
     display: block;
   }
 
-  .img.gal,
+  .img-gal,
   .galery-up,
   .galery-down {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    /* text-align: center; */
   }
 
-  .img.gal {
+  .img-gal {
     margin-bottom: 20px;
   }
 
   .galery-left {
-    margin-bottom: 20px;
+    margin-right: 0;
   }
 
-  .galery-left {
+  /* .galery-left {
     margin-right: 0px;
-  }
+  } */
 }
 
 @media (max-width: 1300px) {
+  
+  
   .header-title {
     position: static;
   }
@@ -556,19 +577,19 @@ ul {
     content: none;
   }
 
-  .cart-holder {
+  /* .cart-holder {
     display: block;
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
     margin-left: 100px;
-  }
+  } */
 
-  .card {
+  /* .card {
     width: 100%;
     margin-top: 30px;
     padding-bottom: 20px;
-  }
+  } */
 
   .menu-items {
     display: block;
@@ -624,7 +645,7 @@ ul {
         display: block;
     }
 
-    .card,
+    .cart,
     .nav,
     .phone,
     .btn    {
@@ -649,6 +670,7 @@ ul {
     .card {
         width: 100%;
         padding-bottom: 20px;
+        margin-top: 30px;
     }
 }
 
